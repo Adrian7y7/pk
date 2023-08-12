@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link type="text/css" rel="stylesheet" href="./main.css"/>
+	</head>
+	<body>
+    <!-- MAIN UI ELEMENTS -->
+    <main class="ui-wrapper page-not-loaded">
+      <!-- LOADER -->
+      <div class="loader flex flex--center">
+        <span class="loader__text">...</span>
+      </div>
+      <!-- MAIN MENU -->
+      <div class="menu">
+        <ul class="menu-list">
+        </ul>
+      </div>
+      <header class="fixed-content-header">
+        <div class="flex flex--center">
+          <div class="burger" data-follow>
+          </div>
+        </div>
+        <button class="fixed-content-header__contact button button--primary" data-follow data-page="5"></button>
+      </header>
+      <!-- PAGING -->
+      <div class="fixed-content-paging">
+        <div class="paging__page" data-page="0"></div>
+      </div>
+      <div class="fixed-content-footer">
+        <div class="fixed-content-footer__copy">
+          <span class="footer-copy__date"></span>
+          <span class="footer-copy__name"> </span>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-section section--hidden" data-page="1">
+          <button class="content-section__button button button--icon" id="button_video">
+          </button>
+        </div>
+        <div class="content-section section--hidden" data-page="2">
+          <div class="content-services">
+            <div class="content-services__service">
+            </div>
+          </div>
+          <button class="content-section__button button button--secondary" id="button_offers"> </button>
+        </div>
+        <div class="content-section section--hidden content-section--left-align" data-page="3">
+          <div class="content-holder--left-align">
+            <button class="content-section__button button button--secondary" id="button_team"> </button>
+          </div>
+          <div class="content-section__images">
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./main.js"></script>
+	</body>
+</html>
